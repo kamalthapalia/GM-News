@@ -1,0 +1,42 @@
+body {
+  background-color: #6e7886 !important;
+  /* background-color: white; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none !important;
+}
+.more {
+  /* top: -400px;
+  transition: 2000ms;*/
+  z-index: 5;
+  display: none;
+  opacity: 0;
+  transition: 300ms;
+}
+.btm {
+  border-bottom: 1px solid salmon;
+}
+.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.btn-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
